@@ -24,6 +24,10 @@
     <?php else : ?>
         <?php echo wpautop('Sorry, No post were found'); ?>
     <?php endif; ?>
+
+    <div class="container">
+        <?php comments_template(); ?>
+    </div>
 </div>
 
 <?php get_footer(); ?>
