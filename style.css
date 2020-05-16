@@ -1,0 +1,55 @@
+/* 
+    Theme Name: Simple
+    Author: Henimbola
+    Author URI: http://henimbola.com/
+    Description: Very simple wordpress theme
+    Version: 1.0
+*/
+
+body {
+    /* background: #000; */
+}
+
+a {
+    color: #333;
+}
+
+article.post {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 25px;
+    padding-bottom: 12px;
+    overflow: hidden;
+}
+
+.meta {
+    background: #333;
+    color: #fff;
+    padding: 5px;
+}
+
+.main-nav {
+    color: blue;
+    padding: 5px;
+}
+
+.main-nav ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.main-nav li {
+    list-style: none;
+    float: left;
+    padding-right: 15px;
+}
+
+.main-nav a {
+    color: blue;
+    text-decoration: none;
+}
+
+div.main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
